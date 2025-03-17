@@ -10,10 +10,11 @@ public class Main {
         int count = 0;
 
         for (int i = 0; i < 5; i ++) {
-            if (arr[i].charAt(2) == a || arr[i].charAt(3) == a)
+            if (arr[i].charAt(2) == a || arr[i].charAt(3) == a) {
+                System.out.println(arr[i]);
                 count ++;
+            }
         }
-
         System.out.println(count);
     }
 }
